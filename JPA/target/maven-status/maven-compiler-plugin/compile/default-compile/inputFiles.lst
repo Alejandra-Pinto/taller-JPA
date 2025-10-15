@@ -1,0 +1,16 @@
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\controller\DegreeWorkController.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\entity\DegreeWork.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\entity\Document.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\entity\enums\EstadoDegreeWork.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\entity\enums\EstadoDocumento.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\entity\Professor.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\entity\Student.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\infra\config\DataLoader.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\infra\dto\DegreeWorkRequest.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\repository\DegreeWorkRepository.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\repository\ProfessorRepository.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\repository\StudentRepository.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\service\DegreeWorkService.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\service\IDegreeWorkService.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\service\NotificationServiceClient.java
+C:\Users\USUARIO\Documents\UNIVERSIDAD\SEMESTRE 6\INGENIERÍA DE SOFTWARE 2\Taller-microservicios\Sincrona\submission-microservice\src\main\java\com\example\submission\SubmissionApplication.java

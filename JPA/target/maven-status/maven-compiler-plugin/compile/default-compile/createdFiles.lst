@@ -1,0 +1,16 @@
+com\example\submission\entity\enums\EstadoDocumento.class
+com\example\submission\service\DegreeWorkService.class
+com\example\submission\entity\Professor.class
+com\example\submission\entity\Student.class
+com\example\submission\repository\DegreeWorkRepository.class
+com\example\submission\repository\StudentRepository.class
+com\example\submission\infra\dto\DegreeWorkRequest.class
+com\example\submission\entity\Document.class
+com\example\submission\entity\DegreeWork.class
+com\example\submission\infra\config\DataLoader.class
+com\example\submission\SubmissionApplication.class
+com\example\submission\repository\ProfessorRepository.class
+com\example\submission\service\IDegreeWorkService.class
+com\example\submission\entity\enums\EstadoDegreeWork.class
+com\example\submission\service\NotificationServiceClient.class
+com\example\submission\controller\DegreeWorkController.class
