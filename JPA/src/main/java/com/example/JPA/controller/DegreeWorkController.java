@@ -1,6 +1,5 @@
 package com.example.JPA.controller;
 
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
@@ -29,7 +28,7 @@ public class DegreeWorkController {
         return degreeWorkRepo.findById(id);
     }
 
-    @GetMapping
+    @GetMapping("/students")
     public List<Student> getAllStudent() {
         return studentRepo.findAll();
     }

@@ -3,6 +3,7 @@ package com.example.JPA.entity;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "users")
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class User {
 
