@@ -2,6 +2,7 @@ package com.example.JPA.infra.config;
 
 import com.example.JPA.entity.*;
 import com.example.JPA.entity.enums.EstadoDegreeWork;
+import com.example.JPA.entity.enums.EstadoDocumento;
 import com.example.JPA.repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -20,6 +21,9 @@ public class DataLoader implements CommandLineRunner {
 
     @Autowired
     private DegreeWorkRepository degreeWorkRepository;
+
+    @Autowired
+    private DocumentRepository documentRepository;
 
     @Override
     public void run(String... args) throws Exception {
@@ -76,6 +80,28 @@ public class DataLoader implements CommandLineRunner {
 
         degreeWorkRepository.save(degreeWork);
 
-        System.out.println("Datos de prueba cargados correctamente en la base de datos H2.");
+        // ----- Documentos -----
+        Document doc1 = new Document();
+        doc1.setUrl("https://repositorio.unicauca.edu.co/tesis/modelo-habilidades-v1.pdf");
+        doc1.setEstado(EstadoDocumento.PRIMERA_REVISION);
+        doc1.setDegreeWork(degreeWork);
+
+        Document doc2 = new Document();
+        doc2.setUrl("https://repositorio.unicauca.edu.co/tesis/modelo-habilidades-v2.pdf");
+        doc2.setEstado(EstadoDocumento.SEGUNDA_REVISION);
+        doc2.setDegreeWork(degreeWork);
+
+        Document doc3 = new Document();
+        doc3.setUrl("https://repositorio.unicauca.edu.co/tesis/modelo-habilidades-final.pdf");
+        doc3.setEstado(EstadoDocumento.ACEPTADO);
+        doc3.setDegreeWork(degreeWork);
+
+        documentRepository.saveAll(List.of(doc1, doc2, doc3));
+
+        // Asociar documentos al trabajo de grado
+        degreeWork.setDocumentos(List.of(doc1, doc2, doc3));
+        degreeWorkRepository.save(degreeWork);
+
+        System.out.println("✅ Datos de prueba cargados correctamente en la base de datos H2.");
     }
 }
